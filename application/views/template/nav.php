@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="main-header navbar navbar-expand navbar-white navbar-light">
+<nav class="main-header navbar navbar-expand navbar-light">
   <!-- Left navbar links -->
   <ul class="navbar-nav">
     <li class="nav-item">
@@ -12,6 +12,7 @@
       <a href="#" class="nav-link">Contact</a>
     </li>
   </ul>
+
 
   <!-- Right navbar links -->
   <ul class="navbar-nav ml-auto">
@@ -36,6 +37,16 @@
         </form>
       </div>
     </li>
+
+    <li class="nav-item">
+      <div class="theme-switch-wrapper nav-link">
+        <label class="theme-switch" for="checkbox">
+          <input type="checkbox" id="checkbox" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </li>
   </ul>
+
 </nav>
 <!-- /.navbar -->
